@@ -6,7 +6,7 @@
         font-size: 3rem;
         color: black;
     }
-    a {
+    .subheader a {
         margin-left: 1rem;
         color: white;
     }
@@ -24,7 +24,6 @@
     }
     .header {
         display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: space-around;
         background-color: rgb(203, 242, 255);
@@ -50,7 +49,7 @@
         padding: .01rem;
     }
     .content {
-        height: 100vh;
+        /* height: 100vh; */
         background-color: rgba(203, 242, 255, 0.637);
         padding: .1rem;
     }
@@ -62,7 +61,8 @@
         margin: auto;
         margin-bottom: 5rem;
     }
-    button {
+    .description a {
+        text-decoration: none;
         background-color: rgb(255, 60, 0);
         padding: .8rem;
         border-radius: .5rem;
@@ -72,7 +72,7 @@
         cursor: pointer;
     }
     .description {
-        margin-left: 5rem;
+        margin: 5rem;
     }
     .description h4{
         font-size: 1.8rem;
@@ -81,16 +81,30 @@
         font-size: 1.1rem;
     }
     .project {
-        width: 15rem;
+        width: 16rem;
     }
+
+    @media (max-width: 600px) {
+    .right-side {
+        flex-direction: column;
+    }
+    .project-left {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .project-left .project {
+        margin-bottom: 1rem;
+    }
+    .project-left .description {
+        margin: 1rem;
+    }
+}
+
+
+
 </style>
 
 <div class="header">
-    <!-- <div class="left-side"> -->
-        <!-- <h1>Brandon Maggiano</h1>
-        <p>Full Stack Software Engineer</p>
-        <span>Chandler, AZ</span> -->
-    <!-- </div> -->
     <div class="right-side">
         <div class="title">
             <h1>Built using the power of <br/> Svelte</h1>
@@ -125,7 +139,8 @@
         <div class="description">
             <h4>IG Caption Generator</h4>
             <p>Using the power of ChatGPT and Replicate, you're able to get custom generated captions based off a number of pre set vibes.</p>
-            <button>Visit Site</button>
+            <br/>
+            <a href="https://igcap.dev" target="_blank">Visit Site</a>
         </div>
     </div>
 
@@ -133,8 +148,9 @@
         <div class="description">
             <h4>Super Showdown</h4>
             <p>A fun card game in which you'll need to choose the correct hero to defeat a given opponent. Incorporating many technologies such as Prisma, Clerk, ChatGPT, and much more! </p>
-            <button>Visit Site</button>
-        </div>
+            <br/>
+            <a href="https://super-showdown.vercel.app/" target="_blank">Visit Site</a>
+                </div>
         <img 
             class="project"
             src="./project2.png"
@@ -151,8 +167,13 @@
         <div class="description">
             <h4>The Casual's Caddie</h4>
             <p>Keeping track of your golf game just got easier! With our tracking system, you'll never be in doubt as you stand on the tee box again.</p>
-            <button>Visit Site</button>
+            <br/>
+            <a href="https://the-casuals-caddie.herokuapp.com/" target="_blank">Visit Site</a>        
         </div>
     </div>
     
+
+    <div>
+
+    </div>
 </div>

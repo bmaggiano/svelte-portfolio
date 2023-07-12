@@ -22,6 +22,14 @@
         border-radius: 5rem;
         margin-right: .5rem;
     }
+    @media (max-width: 600px) {
+        .navContainer {
+            flex-direction: column;
+        }
+        nav {
+            padding-left: 0;
+        }
+    }
 </style>
 
 <div class="navContainer">
