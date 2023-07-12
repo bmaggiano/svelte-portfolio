@@ -26,7 +26,7 @@
 
 <div class="content">
 
-    <h3 class="font-semibold">Check out some of my recent projects</h3>
+    <h3 class="font-semibold">Welcome to my life</h3>
     <br/>
     <br/>
     <br/>
@@ -38,16 +38,16 @@
             alt=""
             />
         <div class="description">
-            <h4>IG Caption Generator</h4>
-            <p>Using the power of ChatGPT and Replicate, you're able to get custom generated captions based off a number of pre set vibes.</p>
+            <h4>Interests</h4>
+            <p>If you know me, you'll know that I'm extremely easy to get a long with and that my interests (outside of web development) are mostly active.</p>
             <br/>
-            <a href="https://igcap.dev" target="_blank">Visit Site</a>
+            <p>I love golf, basketball, football, video games, music, video editing, and spending time with my wife, friends and family. I'm also an avid food enjoyer and have been known to throw down in the kitchen from time to time.</p>
         </div>
     </div>
 
     <div class="project-left middle">
         <div class="description">
-            <h4>Super Showdown</h4>
+            <h4>Journey to Web Development</h4>
             <p>A fun card game in which you'll need to choose the correct hero to defeat a given opponent. Incorporating many technologies such as Prisma, Clerk, ChatGPT, and much more! </p>
             <br/>
             <a href="https://super-showdown.vercel.app/" target="_blank">Visit Site</a>
