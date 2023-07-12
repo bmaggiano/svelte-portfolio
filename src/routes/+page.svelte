@@ -82,7 +82,8 @@
         margin: 5rem;
     }
     .description h4{
-        font-size: 1.8rem;
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
     }
     .description p {
         font-size: 1.1rem;
@@ -96,11 +97,17 @@
     }
     .github-logo {
         width: 3rem;
+        margin: 0 auto;
     }
     hr {
-        width: 5%;
-        color: black;
-    }
+    margin: 0 auto;
+    width: 5%;
+    background-color: darkgray;
+    border: none;
+    height: 2px;
+    margin-top: 1rem;
+}
+
 
     @media (max-width: 600px) {
     .title {
@@ -212,8 +219,8 @@
             />
         </a>
             <hr/>
-        <h5>The Projects dont stop there, check out my github</h5>
-        <p>I have over 26 repos ranging from front end, to back end, to full stack and even project collaboration with others</p>
+        <h5>The Projects dont stop there, check out my github.</h5>
+        <p>I have over 26 repos ranging from front end, to back end, to full stack and even project collaboration with others!</p>
     </div>
 
 </div>

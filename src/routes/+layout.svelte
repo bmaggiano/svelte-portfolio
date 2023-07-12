@@ -50,6 +50,7 @@
 		height: 3rem;
 		border-radius: 5rem;
 		margin-right: 0.5rem;
+        margin-left: .5rem;
 	}
 	@media (max-width: 600px) {
 		.navContainer {
