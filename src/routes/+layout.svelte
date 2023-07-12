@@ -29,12 +29,13 @@
 
 <style>
 	h1 {
-		font-family: sans-serif;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 2rem;
+        color: rgb(77, 77, 77);
 	}
 	.navContainer {
 		display: flex;
-		align-items: end;
+		align-items: flex-end;
         padding: .5rem;
 	}
 	nav {
@@ -57,6 +58,7 @@
 	@media (max-width: 600px) {
 		.navContainer {
 			flex-direction: column;
+            align-items: center;
 		}
 		nav {
 			padding-left: 0;
