@@ -20,7 +20,7 @@
     img {
         height: 3rem;
         border-radius: 5rem;
-        margin-right: 1rem;
+        margin-right: .5rem;
     }
 </style>
 
@@ -30,7 +30,7 @@
             alt="brandon maggiano"
             class="headshot"
             />
-        <h1>My Portfolio</h1>
+        <h1>Portfolio</h1>
     <nav>
         <a href="/">Home</a>
         <a href="/about">About</a>
