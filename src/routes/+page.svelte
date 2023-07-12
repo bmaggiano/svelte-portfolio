@@ -4,19 +4,27 @@
     }
     h1 {
         font-size: 3rem;
+        font-weight: bold;
         color: black;
     }
     .subheader a {
         margin-left: 1rem;
         color: white;
+        text-decoration: underline;
     }
     h2 {
         font-size: 1.2rem;
+        padding: 1rem;
     }
     h3 {
         text-align: center;
         padding-top: 1rem;
         font-size: 2rem;
+    }
+    h5 {
+        font-size: 2rem;
+        letter-spacing: .1rem;
+        margin: 1rem;
     }
     span {
         font-style: italic;
@@ -49,7 +57,6 @@
         padding: .01rem;
     }
     .content {
-        /* height: 100vh; */
         background-color: rgba(203, 242, 255, 0.637);
         padding: .1rem;
     }
@@ -82,6 +89,17 @@
     }
     .project {
         width: 16rem;
+    }
+    .github {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+    .github-logo {
+        width: 3rem;
+    }
+    hr {
+        width: 5%;
+        color: black;
     }
 
     @media (max-width: 600px) {
@@ -184,8 +202,18 @@
         </div>
     </div>
     
-
-    <div>
-
+    <div class="github">
+        <!-- I want github logo to go here -->
+        <a href="https://github.com/bmaggiano" target="_blank">
+            <img
+            src="./github.png"
+            alt=""
+            class="github-logo"
+            />
+        </a>
+            <hr/>
+        <h5>The Projects dont stop there, check out my github</h5>
+        <p>I have over 26 repos ranging from front end, to back end, to full stack and even project collaboration with others</p>
     </div>
+
 </div>
