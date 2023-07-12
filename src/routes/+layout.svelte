@@ -31,11 +31,11 @@
 	h1 {
 		font-family: sans-serif;
         font-size: 2rem;
-        padding: 1rem;
 	}
 	.navContainer {
 		display: flex;
-		align-items: center;
+		align-items: end;
+        padding: .5rem;
 	}
 	nav {
 		padding-left: 2rem;
@@ -44,7 +44,7 @@
 		font-family: sans-serif;
 		padding-left: 2rem;
 		text-decoration: none;
-		color: rgb(255, 60, 0);
+		color: rgb(109, 109, 109);
 		letter-spacing: 0.2rem;
 		font-weight: bold;
 	}

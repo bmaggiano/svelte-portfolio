@@ -30,7 +30,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        background-color: rgb(203, 242, 255);
+        background-color: rgba(203, 242, 255, 0.671);
     }
     .headshot {
         height: 15rem;
@@ -97,7 +97,7 @@
     width: 5%;
     background-color: darkgray;
     border: none;
-    height: 2px;
+    height: .1rem;
     margin-top: 1rem;
 }
 
