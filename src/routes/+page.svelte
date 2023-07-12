@@ -85,6 +85,12 @@
     }
 
     @media (max-width: 600px) {
+    .title {
+        padding: 0;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-top: 0;
+    }
     .right-side {
         flex-direction: column;
     }
@@ -97,6 +103,12 @@
     }
     .project-left .description {
         margin: 1rem;
+    }
+    .description {
+        text-align: center;
+    }
+    .middle {
+        flex-direction: column-reverse;
     }
 }
 
@@ -144,7 +156,7 @@
         </div>
     </div>
 
-    <div class="project-left">
+    <div class="project-left middle">
         <div class="description">
             <h4>Super Showdown</h4>
             <p>A fun card game in which you'll need to choose the correct hero to defeat a given opponent. Incorporating many technologies such as Prisma, Clerk, ChatGPT, and much more! </p>
