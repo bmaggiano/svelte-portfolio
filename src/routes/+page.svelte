@@ -80,7 +80,7 @@
     .description p {
         font-size: 1.1rem;
     }
-    .project1 {
+    .project {
         width: 15rem;
     }
 </style>
@@ -118,7 +118,7 @@
 
     <div class="project-left">
         <img 
-            class="project1"
+            class="project"
             src="./project1.png"
             alt=""
             />
@@ -132,12 +132,27 @@
     <div class="project-left">
         <div class="description">
             <h4>Super Showdown</h4>
-            <p></p>
+            <p>A fun card game in which you'll need to choose the correct hero to defeat a given opponent. Incorporating many technologies such as Prisma, Clerk, ChatGPT, and much more! </p>
+            <button>Visit Site</button>
         </div>
         <img 
-            src="./sveltelogo.png"
+            class="project"
+            src="./project2.png"
             alt=""
             />
+    </div>
+
+    <div class="project-left">
+        <img 
+            class="project"
+            src="./project3.png"
+            alt=""
+            />
+        <div class="description">
+            <h4>The Casual's Caddie</h4>
+            <p>Keeping track of your golf game just got easier! With our tracking system, you'll never be in doubt as you stand on the tee box again.</p>
+            <button>Visit Site</button>
+        </div>
     </div>
     
 </div>
