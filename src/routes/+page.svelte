@@ -1,5 +1,5 @@
 <style>
-    h1, h2, h3, h4, h5, h6, p, span, button, a {
+    h1, h2, h3, h4, h5, h6, p, a {
         font-family: sans-serif;
     }
     h1 {
@@ -26,10 +26,6 @@
         letter-spacing: .1rem;
         margin: 1rem;
     }
-    span {
-        font-style: italic;
-        color: rgb(104, 104, 104);
-    }
     .header {
         display: flex;
         align-items: center;
@@ -45,10 +41,7 @@
         justify-content: space-around;
         margin-top: 4rem;
         margin-bottom: 4rem;
-        width: 40rem;
-    }
-    .title {
-        padding-left: 2rem;
+        width: 50rem;
     }
     .subheader {
         background-color: rgb(255, 60, 0);
@@ -136,16 +129,20 @@
         flex-direction: column-reverse;
     }
 }
-
-
-
 </style>
+
+<script>
+    import { Blockquote } from 'flowbite-svelte'
+  </script>
 
 <div class="header">
     <div class="right-side">
         <div class="title">
-            <h1>Built using the power of <br/> Svelte</h1>
-            <span>a fast growing font end framework</span>
+            <h1>Built using the power of <br/> Svelte & Flowbite</h1><br/>
+              
+              <Blockquote size='xl'>
+              "Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."
+              </Blockquote>
         </div>
         <img
         class="headshot"
@@ -162,7 +159,7 @@
 
 <div class="content">
 
-    <h3>Check out some of my recent projects</h3>
+    <h3 class="font-semibold">Check out some of my recent projects</h3>
     <br/>
     <br/>
     <br/>
