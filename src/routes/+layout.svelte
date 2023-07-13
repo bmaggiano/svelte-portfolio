@@ -49,6 +49,10 @@
 		letter-spacing: 0.2rem;
 		font-weight: bold;
 	}
+    nav a:hover {
+        color: black;
+        text-decoration: underline;
+    }
 	img {
 		height: 3rem;
 		border-radius: 5rem;
