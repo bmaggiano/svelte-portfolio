@@ -34,7 +34,7 @@
     <div class="project-left">
         <img 
             class="project"
-            src="./project1.png"
+            src="./interests.png"
             alt=""
             />
         <div class="description">
@@ -54,7 +54,7 @@
                 </div>
         <img 
             class="project"
-            src="./project2.png"
+            src="./jouney.png"
             alt=""
             />
     </div>
