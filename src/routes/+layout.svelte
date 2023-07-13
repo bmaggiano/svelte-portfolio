@@ -5,7 +5,7 @@
 
 <div class="navContainer">
 	<img src="./smaller.jpg" alt="brandon maggiano" class="headshot" />
-	<h1>Portfolio</h1>
+	<h1 class="font-normal">Portfolio</h1>
 	<nav>
 		<a href="/">Home</a>
 		<a href="/about">About</a>

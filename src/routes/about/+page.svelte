@@ -48,43 +48,17 @@
     <div class="project-left middle">
         <div class="description">
             <h4>Journey to Web Development</h4>
-            <p>A fun card game in which you'll need to choose the correct hero to defeat a given opponent. Incorporating many technologies such as Prisma, Clerk, ChatGPT, and much more! </p>
+            <p>After spending 7+ years in the Real Estate business and becoming recently married in 2022, it became obvious that I needed to change careers.</p>
             <br/>
-            <a href="https://super-showdown.vercel.app/" target="_blank">Visit Site</a>
-                </div>
+            <p>I began heavy discussions with my wife, best friends, and family about the possibility of switching careers, and it was a unanimous decision that I should switch to coding.</p>
+            <br/>
+            <p>On April 21st, 2022 with the help of my mom and dad (both retired from tech & engineering) I set up my first HTML document and wrote my first lines of code! From then on, a never ending journey to learn new skills and harness my newfound obsession with web development!</p>        
+        </div>
         <img 
             class="project"
             src="./jouney.png"
             alt=""
             />
-    </div>
-
-    <div class="project-left">
-        <img 
-            class="project"
-            src="./project3.png"
-            alt=""
-            />
-        <div class="description">
-            <h4>The Casual's Caddie</h4>
-            <p>Keeping track of your golf game just got easier! With our tracking system, you'll never be in doubt as you stand on the tee box again.</p>
-            <br/>
-            <a href="https://the-casuals-caddie.herokuapp.com/" target="_blank">Visit Site</a>        
-        </div>
-    </div>
-    
-    <div class="github">
-        <!-- I want github logo to go here -->
-        <a href="https://github.com/bmaggiano" target="_blank">
-            <img
-            src="./github.png"
-            alt=""
-            class="github-logo"
-            />
-        </a>
-            <hr/>
-        <h5>The projects dont stop there, check out my github.</h5>
-        <p>I have over 26 repos ranging from front end, to back end, to full stack and even project collaboration with others!</p>
     </div>
 
 </div>
