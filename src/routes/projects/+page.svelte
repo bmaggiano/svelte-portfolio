@@ -95,8 +95,8 @@
                 <tr>
                     <td class="font-semibold">{project.name}</td>
                     <td>{project.tech}</td>
-                    <td><a class="" href={project.github}>Click</a></td>
-                    <td><a href={project.deployedLink}>Click</a></td>
+                    <td class="text-center"><a class="bg-gray-200 p-1 px-2 border border-gray-400 rounded-md" href={project.github}>Click</a></td>
+                    <td class="text-center"><a class="bg-gray-200 p-1 px-2 border border-gray-400 rounded-md"href={project.deployedLink}>Click</a></td>
                 </tr>
                 {/each}
             </tbody>

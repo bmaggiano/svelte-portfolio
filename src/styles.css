@@ -119,12 +119,13 @@ h1 {
 th, td {
     padding: .5rem;
     text-align: left;
+    white-space: nowrap;
 }
 td {
     border-top: 1px solid #ddd;
 }
-td a {
-    text-decoration: underline;
+thead {
+    font-size: 1.2rem;
 }
 
 
