@@ -101,18 +101,32 @@ h1 {
 }
 .projects {
     margin: 0 auto;
-    width: 60rem;
-    margin-top: 5rem;
+    width: 100%; /* Adjust to your desired width */
+    max-width: 60rem;
+    margin-top: 6rem;
+    border-radius: .5rem;
+    border: .1rem solid gray;
+    padding: 1rem;
+    overflow-x: auto; /* Enable horizontal scrolling within the container */
+    margin-bottom: 6rem;
 }
+
 .projects table {
     border-collapse: collapse;
-        width: 100%;
+    width: 100%;
 }
+
 th, td {
-    padding: 8px;
+    padding: .5rem;
     text-align: left;
-    border-bottom: 1px solid #ddd;
 }
+td {
+    border-top: 1px solid #ddd;
+}
+td a {
+    text-decoration: underline;
+}
+
 
     @media (max-width: 600px) {
     .title {
@@ -139,5 +153,8 @@ th, td {
     }
     .middle {
         flex-direction: column-reverse;
+    }
+    .blockquote {
+        text-align: center;
     }
 }
