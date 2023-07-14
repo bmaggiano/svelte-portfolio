@@ -40,3 +40,27 @@
 <div class="subheader">
     <h2> Making a career change can be one of the most daunting desicions of a person's life...</h2>
 </div>
+
+<div class="projects">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Tech</th>
+                <th>GitHub</th>
+                <th>Deployed Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            {#each projects as project}
+                <tr>
+                    <td>{project.name}</td>
+                    <td>{project.tech}</td>
+                    <td><a href={project.github}>{project.github}</a></td>
+                    <td><a href={project.deployedLink}>{project.deployedLink}</a></td>
+                </tr>
+            {/each}
+        </tbody>
+    </table>
+
+</div>

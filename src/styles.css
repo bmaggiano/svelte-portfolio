@@ -99,7 +99,20 @@ h1 {
     height: .1rem;
     margin-top: 1rem;
 }
-
+.projects {
+    margin: 0 auto;
+    width: 60rem;
+    margin-top: 5rem;
+}
+.projects table {
+    border-collapse: collapse;
+        width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
 
     @media (max-width: 600px) {
     .title {
