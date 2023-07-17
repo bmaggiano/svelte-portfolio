@@ -1,7 +1,10 @@
 <script>
     import { Blockquote } from 'flowbite-svelte'
     import '../../styles.css'
+    import HeadInfo from '../HeadInfo.svelte';
   </script>
+
+<HeadInfo title="Portfolio About" />
 
 <div class="header">
     <div class="right-side">

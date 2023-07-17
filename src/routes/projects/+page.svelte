@@ -51,9 +51,12 @@
             github: "https://github.com/bmaggiano/Text-Editor-Pwa",
             deployedLink:"https://bmaggiano-jate.herokuapp.com/",
         },
-    ]
-
+    ];
+    import HeadInfo from '../HeadInfo.svelte';
   </script>
+
+
+<HeadInfo title="Portfolio Projects" />
 
 
 <div class="header">
