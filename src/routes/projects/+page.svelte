@@ -59,7 +59,7 @@
 <HeadInfo title="Portfolio Projects" />
 
 
-<div class="header">
+<header class="header">
     <div class="right-side">
         <div class="title">
             <h1>My Projects</h1><br/>
@@ -74,15 +74,14 @@
         alt="Svelte logo"
         />
     </div>
-</div>
+</header>
 
-<div class="subheader">
+<section class="subheader">
     <h2>Check out some of my projects below!</h2>
-</div>
+</section>
 
 
-<div class="content">
-
+<section class="content">
     <div class="projects bg-gray-50">
         <table>
         <thead >
@@ -104,6 +103,5 @@
                 {/each}
             </tbody>
         </table>
-        
     </div>
-</div>
+</section>

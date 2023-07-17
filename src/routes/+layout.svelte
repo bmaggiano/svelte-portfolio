@@ -1,3 +1,5 @@
+<!-- This is our navbar and footer, this layout.svelte will be applied to all pages -->
+
 <script>
 	import '../app.postcss';
 	import { Footer, FooterCopyright, FooterLinkGroup, FooterLink } from 'flowbite-svelte';

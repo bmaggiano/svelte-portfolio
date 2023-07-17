@@ -6,7 +6,7 @@
 
 <HeadInfo title="Portfolio About" />
 
-<div class="header">
+<header class="header">
     <div class="right-side">
         <div class="title">
             <h1>About Me</h1><br/>
@@ -21,13 +21,13 @@
         alt="Svelte logo"
         />
     </div>
-</div>
+</header>
 
-<div class="subheader">
+<section class="subheader">
     <h2>Making a career change can be one of the most daunting desicions of a person's life...</h2>
-</div>
+</section>
 
-<div class="content">
+<section class="content">
 
     <h3 class="font-semibold">Welcome to my life</h3>
     <br/>
@@ -64,4 +64,4 @@
             />
     </div>
 
-</div>
+</section>
