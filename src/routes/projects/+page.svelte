@@ -71,7 +71,7 @@
         <img
         class="headshot"
         src="./sveltelogo.png"
-        alt="Brandon Maggiano"
+        alt="Svelte logo"
         />
     </div>
 </div>

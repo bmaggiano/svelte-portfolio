@@ -1,3 +1,5 @@
+<!-- Head info for the different pages -->
+
 <script>
     /**
 	 * @type {any}

@@ -18,7 +18,7 @@
         <img
         class="headshot"
         src="./sveltelogo.png"
-        alt="Brandon Maggiano"
+        alt="Svelte logo"
         />
     </div>
 </div>
@@ -38,7 +38,7 @@
         <img 
             class="project"
             src="./interests.png"
-            alt=""
+            alt="Brandon Maggiano playing golf on the tee box with a driver"
             />
         <div class="description">
             <h4>Interests</h4>
@@ -60,7 +60,7 @@
         <img 
             class="project"
             src="./jouney.png"
-            alt=""
+            alt="a cell phone with vscode on it"
             />
     </div>
 

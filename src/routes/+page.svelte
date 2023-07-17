@@ -4,9 +4,11 @@
     import HeadInfo from './HeadInfo.svelte';
   </script>
 
+<!-- Sets the title of the page -->
   <HeadInfo title="Portfolio Home" />
 
-<div class="header">
+<!-- Our header and this layout will be consistent across all pages -->
+<header class="header">
     <div class="right-side">
         <div class="title">
             <h1>Built using the power of <br/> Svelte & Flowbite</h1><br/>
@@ -18,17 +20,18 @@
         <img
         class="headshot"
         src="./sveltelogo.png"
-        alt="Brandon Maggiano"
+        alt="Svelte logo"
         />
     </div>
-</div>
+</header>
 
-<div class="subheader">
+<!-- similar to mint.com subheader -->
+<section class="subheader">
     <h2>See why Svelte is averaging 500,000+ weekly downloads! <a href="https://svelte.dev/" target="_blank">Learn More</a></h2>
-</div>
+</section>
 
 
-<div class="content">
+<section class="content">
 
     <h3 class="font-semibold">Check out some of my recent projects</h3>
     <br/>
@@ -39,7 +42,7 @@
         <img 
             class="project"
             src="./project1.png"
-            alt=""
+            alt="cell phone with igcap.dev pulled up"
             />
         <div class="description">
             <h4>IG Caption Generator</h4>
@@ -59,7 +62,7 @@
         <img 
             class="project"
             src="./project2.png"
-            alt=""
+            alt="cell phone with the home page of super showdown"
             />
     </div>
 
@@ -67,7 +70,7 @@
         <img 
             class="project"
             src="./project3.png"
-            alt=""
+            alt="cell phone with the casual's caddie website home page"
             />
         <div class="description">
             <h4>The Casual's Caddie</h4>
@@ -78,11 +81,10 @@
     </div>
     
     <div class="github">
-        <!-- I want github logo to go here -->
         <a href="https://github.com/bmaggiano" target="_blank">
             <img
             src="./github.png"
-            alt=""
+            alt="github logo"
             class="github-logo"
             />
         </a>
@@ -91,4 +93,4 @@
         <p>I have over 26 repos ranging from front end, to back end, to full stack and even project collaboration with others!</p>
     </div>
 
-</div>
+</section>
